@@ -2,6 +2,6 @@ puts 'Give me a word :'
 
 word = gets.chomp.downcase
 
-palindromVerified = word.reverse == word
+palindrom_verified = word.reverse == word
 
-puts "Your word is #{palindromVerified ? '' : 'not '}a palindrom"
+puts "Your word is #{palindrom_verified ? '' : 'not '}a palindrom"
