@@ -18,10 +18,10 @@ todo_list += ['Meet ruby community']
 todo_list.insert(3, 'say hi to matz') # Matz is Yukihiro Matsomoto username, the ruby creator.
 
 # or
-todo_list.push('tak xyz', 'homework') # add two new items at the end
+todo_list.push('task xyz', 'homework') # add two new items at the end
 puts todo_list.inspect # use the inspect method to show a fromatted array
 
-# You can also create multi-dimention arrays
+# You can also create multi-dimension arrays
 coordinates = [
   [12, 13],
   [9, 18],

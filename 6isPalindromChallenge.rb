@@ -4,4 +4,4 @@ word = gets.chomp.downcase
 
 palindrom_verified = word.reverse == word
 
-puts "Your word is #{palindrom_verified ? '' : 'not '}a palindrom"
+puts "The word '#{word}' is #{palindrom_verified ? '' : 'not '}a palindrom"
