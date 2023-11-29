@@ -16,7 +16,7 @@ loop do
   if user_num > random_num
     puts 'Your number is greater than the mystery number'
   elsif user_num < random_num
-    puts 'Your number is lesser than the mystery number'
+    puts 'Your number is less than the mystery number'
   else
     puts "Well done ! You find the mystery number.\nIt was #{random_num}. You find it after #{try} tries"
     break

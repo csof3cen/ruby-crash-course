@@ -15,7 +15,7 @@ todo_list += ['Meet ruby community']
 # or
 # The following insert method takes the index and the value
 # At index 3, insert this new element
-todo_list.insert(3, 'say hi to matz') # Matz is Yukihiro Matsomoto username, the ruby creator.
+todo_list.insert(3, 'say hi to matz') # For your culture, Matz is Yukihiro Matsomoto's username, the ruby creator.
 
 # or
 todo_list.push('task xyz', 'homework') # add two new items at the end
@@ -30,7 +30,7 @@ coordinates = [
 
 puts coordinates.inspect
 
-# After array, let's take a look at Hashes or key-based entries, or maps, or associative arrays or dictionnaries
+# After array, let's take a look at Hashes, a key-value-based entry datatype. They're called maps, associative arrays dictionnaries on other languages
 products = {
   'mac' => ['14gb ram', '250ssd', 'core i9'],
   'vaio' => ['8gb ram', '500ssd', 'core i7'],
@@ -43,7 +43,7 @@ puts 'mac ram : ' + products['mac'][0] # Mac's ram
 # When we try to access unexisting index, we get nil (null value)
 # Retrieves values array with hash.values & keys with hash.keys
 
-# Read more about symbols
+# TODO: Read more about symbols
 
 # We can also create hashes by using this modern syntax:
 students = {
